@@ -9,7 +9,7 @@ title: 首页
 ANI-RSS
 </h1>
 <p align="center">
-自动追番、订阅、下载 蜜柑RSS动漫
+基于RSS自动追番、订阅、下载
 </p>
 
 <a href="start">快速开始</a>
