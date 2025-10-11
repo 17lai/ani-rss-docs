@@ -192,7 +192,7 @@ export default defineConfig({
             "meta",
             {
                 property: "og:image",
-                content: "https://socialify.git.ci/wushuo894/ani-rss/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fdocs.wushuo.top%2Fassets%2Ficon.CAvw8N2m.svg&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Light"
+                content: "https://docs.wushuo.top/ani-rss.webp"
             },
         ],
         ["meta", {property: "og:image:width", content: "1280"}],
@@ -207,7 +207,7 @@ export default defineConfig({
             "meta",
             {
                 name: "twitter:image",
-                content: "https://socialify.git.ci/wushuo894/ani-rss/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fdocs.wushuo.top%2Fassets%2Ficon.CAvw8N2m.svg&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Light"
+                content: "https://docs.wushuo.top/ani-rss.webp"
             },
         ],
         ['link', {rel: 'icon', href: '/favicon.ico'}],
