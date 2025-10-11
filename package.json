@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "nprogress-v2": "^1.1.10",
-    "vitepress": "^1.6.3"
+    "vitepress": "^1.6.4"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",
@@ -9,11 +9,11 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "@element-plus/icons-vue": "^2.3.1",
+    "@element-plus/icons-vue": "^2.3.2",
     "@giscus/vue": "^3.1.1",
     "@vicons/fa": "^0.13.0",
-    "@vueuse/core": "^13.6.0",
-    "element-plus": "^2.10.5",
+    "@vueuse/core": "^13.9.0",
+    "element-plus": "^2.11.4",
     "markdown-it": "^14.1.0",
     "markdown-it-github-alerts": "^1.0.0",
     "md5": "^2.3.0"
