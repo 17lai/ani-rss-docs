@@ -41,6 +41,18 @@ allowfullscreen>
 
 :::
 
+<div style="overflow-x: auto;">
+<div style="width: 1200px">
+
+| 镜像                          | 架构                        | 底层镜像          | JDK                                                                         | github                                                                    |
+|-----------------------------|---------------------------|---------------|-----------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| `wushuo894/ani-rss:latest`  | `linux/amd64,linux/arm64` | alpine:latest | [eclipse-temurin](https://adoptium.net)                                     | [wushuo894/eclipse-temurin](https://github.com/wushuo894/eclipse-temurin) |   
+| `wushuo894/ani-rss:openj9`  | `linux/amd64,linux/arm64` | ubuntu:noble  | [ibm-semeru-runtimes](https://developer.ibm.com/languages/semeru-runtimes/) | [wushuo894/openj9-docker](https://github.com/wushuo894/openj9-docker)     |   
+| `wushuo894/ani-rss:arm32v7` | `linux/arm32v7`           | ubuntu:noble  | [eclipse-temurin](https://adoptium.net)                                     | [wushuo894/eclipse-temurin](https://github.com/wushuo894/eclipse-temurin) |
+
+</div>
+</div>
+
 ::: code-group
 
 ```yaml:line-numbers [docker-compose.yml]
