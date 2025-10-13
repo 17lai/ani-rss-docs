@@ -53,6 +53,10 @@ allowfullscreen>
 </div>
 </div>
 
+::: info
+eclipse-temurin 拥有更小的体积; ibm-semeru-runtimes 拥有更少的内存占用
+:::
+
 ::: code-group
 
 ```yaml:line-numbers [docker-compose.yml]
