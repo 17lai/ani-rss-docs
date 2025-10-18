@@ -66,7 +66,7 @@ export default defineConfig({
                         link: '/config/download',
                         items: [
                             {text: 'qBittorrent', link: '/config/download/qbittorrent'},
-                            {text: 'OpenList', link: '/config/download/open-list'},
+                            {text: 'OpenList', link: '/config/download/openlist'},
                         ]
                     },
                     {
@@ -213,7 +213,7 @@ export default defineConfig({
         ['link', {rel: 'icon', href: '/favicon.ico'}],
         ['script', {src: 'https://www.googletagmanager.com/gtag/js?id=G-NDNNT54HQM', async: true}],
         ['script', {src: '/custom.js'}],
-        ['meta', {name: "theme-color", id: "themeColorMeta",content:"#ffffff"}],
+        ['meta', {name: "theme-color", id: "themeColorMeta", content: "#ffffff"}],
     ],
     lastUpdated: true,
     markdown: {

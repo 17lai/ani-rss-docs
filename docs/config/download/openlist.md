@@ -2,11 +2,11 @@
 
 自动将下载完成的文件上传至 `OpenList`
 
-## OpenListHost
+## Host
 
 `OpenList` 的 `HTTP` 地址
 
-## OpenListToken
+## Token
 
 令牌，可在 `OpenList 网页 -> 管理 -> 设置 -> 其他 -> 令牌` 找到
 
