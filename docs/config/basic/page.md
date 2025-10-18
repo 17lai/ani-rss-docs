@@ -12,6 +12,6 @@
 
 显示视频列表按钮
 
-### 自定义css
+### 自定义 CSS
 
-你可以去 <https://github.com/wushuo894/ani-rss-css> 复制你想要的 `css`
+你可以去 <https://github.com/wushuo894/ani-rss-css> 复制你想要的 `CSS`

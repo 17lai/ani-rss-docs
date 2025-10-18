@@ -1,6 +1,6 @@
 # 通知
 
-### 通知模版示例
+### 通知模板示例
 
 ```txt
 ${emoji}${emoji}${emoji}
@@ -25,12 +25,12 @@ BGM日文集标题: ${bgmJpEpisodeTitle}
 ${emoji}${emoji}${emoji}
 ```
 
-::: info webhook
+::: info Webhook
 `${notification}` 会自动替换为信息
 
 `${image}` 会自动替换为图片链接
 
-`${imageBase64}` 会自动替换为图片的base64编码，默认不带前缀，如果你需要带前缀的base64图片，请在模板中自行添加，例如：`data:image/png;base64,${imageBase64}`, 或者有些bot支持`base64://${imageBase64}`
+`${imageBase64}` 会自动替换为图片的 base64 编码，默认不带前缀，如果你需要带前缀的 base64 图片，请在模板中自行添加，例如：`data:image/png;base64,${imageBase64}`，或者有些 bot 支持 `base64://${imageBase64}`
 :::
 
 ::: details 具体解释
@@ -41,7 +41,7 @@ ${emoji}${emoji}${emoji}
 | 数据                                                   | 模版                     | 结果示例                                                                    |  
 |------------------------------------------------------|------------------------|-------------------------------------------------------------------------|
 | Emoji                                                | `${emoji}`             | `🎈、🎉、⚠、❌、🙌、🎊、🐟`                                                    |
-| 事件类型                                                 | `${action}`            | `开始下载、下载完成、缺少集数、发生错误、Alist上传通知、订阅完结、摸鱼检测`                               |
+| 事件类型                                                 | `${action}`            | `开始下载、下载完成、缺少集数、发生错误、OpenList上传通知、订阅完结、摸鱼检测`                            |
 | 标题                                                   | `${title}`             | `Re：从零开始的异世界生活`                                                         |  
 | TMDB标题                                               | `${themoviedbName}`    | `Re：从零开始的异世界生活`                                                         |  
 | BGM日文标题                                              | `${jpTitle}`           | `Re:ゼロから始める異世界生活`                                                       |  

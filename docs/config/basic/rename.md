@@ -23,7 +23,7 @@
 
 重命名间隔, 单位 分钟
 
-### 重命名模版 {#rename-template}
+### 重命名模板 {#rename-template}
 
 ::: info 默认模板
 
@@ -34,7 +34,7 @@
 :::
 
 ::: warning
-模板内至少需要保留 `S${seasonFormat}E${episodeFormat}` or `S${season}E${episode}` 否则会导致无法正常重命名
+模板内至少需要保留 `S${seasonFormat}E${episodeFormat}` 或 `S${season}E${episode}` 否则会导致无法正常重命名
 :::
 
 <div style="overflow-x: auto;">
@@ -62,8 +62,8 @@
 
 ### 剔除年份
 
-重命名时剔除 年份, 如 `(2024)`
+重命名时剔除年份，如 `(2024)`
 
-### 剔除TMDB ID
+### 剔除 TMDB ID
 
-重命名时剔除 tmdbid, 如 `[tmdbid=242143]`
+重命名时剔除 TMDB ID，如 `[tmdbid=242143]`

@@ -9,7 +9,7 @@ title: 首页
 ANI-RSS
 </h1>
 <p align="center">
-基于RSS自动追番、订阅、下载
+基于RSS自动追番、订阅、下载、刮削
 </p>
 
 <a href="start">快速开始</a>
@@ -34,10 +34,10 @@ ANI-RSS
 <img src="./image/Transmission.webp" alt="transmission" width="60">
 <img src="./image/Qbittorrent.webp" alt="qbittorrent" width="60">
 <img src="./image/Aria2.webp" alt="aria2" width="60">
-<img src="./image/Alist.webp" alt="alist" width="60">
+<img src="./image/OpenList.webp" alt="OpenList" width="60">
 </div>
 
-<p>支持 <strong>Transmission</strong> <strong>qBittorrent</strong> <strong>Aria2</strong> <strong>Alist</strong></p>
+<p>支持 <strong>Transmission</strong> <strong>qBittorrent</strong> <strong>Aria2</strong> <strong>OpenList</strong></p>
 
 </div>
 

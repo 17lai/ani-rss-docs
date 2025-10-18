@@ -1,4 +1,4 @@
-# Docker部署
+# Docker 部署
 
 <div>
 
@@ -7,7 +7,7 @@
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github)](https://github.com/wushuo894/ani-rss)
 </div>
 
-::: info docker镜像加速监控
+::: info Docker 镜像加速监控
 <https://status.1panel.top/status/docker>
 :::
 
@@ -19,7 +19,7 @@
 :::
 
 ::: warning
-**使用docker部署时, 务必让 `ani-rss` 与 `下载器` 路径保持一致**
+**使用 Docker 部署时，务必让 `ani-rss` 与 `下载器` 的挂载路径保持一致**
 :::
 
 ::: details 视频教程 {id=video}
@@ -54,7 +54,8 @@ allowfullscreen>
 </div>
 
 ::: info
-eclipse-temurin 拥有更小的体积; ibm-semeru-runtimes 拥有更少的内存占用
+- **eclipse-temurin**：拥有更小的镜像体积
+- **ibm-semeru-runtimes**：拥有更少的内存占用
 :::
 
 ::: code-group
@@ -76,7 +77,7 @@ services:
       - TZ=Asia/Shanghai
     volumes:
       - /volume1/docker/ani-rss/config:/config
-      - /volume2/wushuo/Media:/Media # 番剧挂载路径两侧须一致
+      - /volume2/wushuo/Media:/Media # 番剧挂载路径，两侧须保持一致
     restart: always
     network_mode: host
   qBittorrent:
@@ -90,7 +91,7 @@ services:
     volumes:
       - /volume1/docker/qBittorrent/config:/config
       - /volume2/wushuo/downloads:/downloads
-      - /volume2/wushuo/Media:/Media # 番剧挂载路径两侧须一致
+      - /volume2/wushuo/Media:/Media # 番剧挂载路径，两侧须保持一致
     restart: always
     network_mode: host
 ```
@@ -137,10 +138,10 @@ docker compose up -d
 :::
 
 ::: info
-如需对 `docker` 内的 `ani-rss` 设置本机跳过身份验证，请留意登录日志内的IP信息。
+如需对 Docker 容器内的 `ani-rss` 设置本机跳过身份验证，请留意登录日志内的 IP 信息。
 :::
 
-如果使用了如上配置，请将 [下载设置](../config/download#下载工具) 修改为如下配置：
+如果使用了上述配置，请将 [下载设置](../config/download#下载工具) 修改为如下配置：
 
 | 条目      | 内容               |
 |---------|------------------|
@@ -152,6 +153,6 @@ docker compose up -d
 | 剧场版保存位置 | /Media/剧场版       |
 
 ::: info
-初次启动时 `qBittorrent` 会为 `admin` 用户生成一个随机密码，请查看日志获取初始密码。
+初次启动时 `qBittorrent` 会为 `admin` 用户生成一个随机密码，请查看容器日志获取初始密码。
 :::
 

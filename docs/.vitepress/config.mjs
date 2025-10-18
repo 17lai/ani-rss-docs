@@ -19,9 +19,9 @@ export default defineConfig({
                 text: '部署',
                 items: [
                     {text: '部署程序', link: '/deploy/deploy'},
-                    {text: 'Docker部署', link: '/deploy/docker'},
+                    {text: 'Docker 部署', link: '/deploy/docker'},
                     {text: 'Windows', link: '/deploy/windows'},
-                    {text: '群晖NAS', link: '/deploy/dsm'},
+                    {text: '群晖 NAS 部署', link: '/deploy/dsm'},
                 ]
             },
             {
@@ -52,9 +52,9 @@ export default defineConfig({
                 text: '部署',
                 items: [
                     {text: '部署程序', link: '/deploy/deploy'},
-                    {text: 'Docker部署', link: '/deploy/docker'},
+                    {text: 'Docker 部署', link: '/deploy/docker'},
                     {text: 'Windows', link: '/deploy/windows'},
-                    {text: '群晖NAS', link: '/deploy/dsm'},
+                    {text: '群晖 NAS 部署', link: '/deploy/dsm'},
                 ]
             },
             {
@@ -66,7 +66,7 @@ export default defineConfig({
                         link: '/config/download',
                         items: [
                             {text: 'qBittorrent', link: '/config/download/qbittorrent'},
-                            {text: 'AList', link: '/config/download/alist'},
+                            {text: 'OpenList', link: '/config/download/open-list'},
                         ]
                     },
                     {
@@ -75,7 +75,7 @@ export default defineConfig({
                             {text: '页面设置', link: '/config/basic/page'},
                             {text: '添加订阅', link: '/config/basic/add'},
                             {text: '重命名设置', link: '/config/basic/rename'},
-                            {text: 'RSS设置', link: '/config/basic/rss'},
+                            {text: 'RSS 设置', link: '/config/basic/rss'},
                             {text: 'Trackers', link: '/config/basic/trackers'},
                             {text: '其他', link: '/config/basic/other'},
                         ]

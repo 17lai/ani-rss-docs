@@ -1,10 +1,10 @@
-# 群晖NAS
+# 群晖 NAS 部署
 
-::: info
-**请提前安装 Java 17 OpenJdk 套件**
+::: info 前置要求
+**请提前安装 Java 17 OpenJDK 套件**
 :::
 
-使用矿神套件源 `https://spk7.imnks.com` , 搜索 `ani-rss` 安装
+使用矿神套件源 `https://spk7.imnks.com`，搜索 `ani-rss` 进行安装
 
 ![Xnip2024-11-05_05-41-50.webp](/image/Xnip2024-11-05_05-41-50.webp)
 
