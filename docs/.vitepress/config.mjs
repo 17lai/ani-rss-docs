@@ -4,8 +4,8 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     lang: "zh-CN",
     title: "ANI-RSS",
-    titleTemplate: ":title - ANI-RSS 自动追番、订阅、下载 蜜柑RSS动漫",
-    description: "ANI-RSS 自动追番、订阅、下载 蜜柑RSS动漫",
+    titleTemplate: ":title - ANI-RSS 基于RSS自动追番、订阅、下载、刮削",
+    description: "ANI-RSS 基于RSS自动追番、订阅、下载、刮削",
     cleanUrls: true,
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
@@ -184,8 +184,8 @@ export default defineConfig({
         ],
         // Open Graph
         ["meta", {property: "og:type", content: "website"}],
-        ["meta", {property: "og:title", content: "ANI-RSS - 自动追番、订阅、下载 蜜柑RSS动漫"}],
-        ["meta", {property: "og:description", content: "ANI-RSS 自动追番、订阅、下载 蜜柑RSS动漫"}],
+        ["meta", {property: "og:title", content: "ANI-RSS - 基于RSS自动追番、订阅、下载、刮削"}],
+        ["meta", {property: "og:description", content: "ANI-RSS 基于RSS自动追番、订阅、下载、刮削"}],
         ["meta", {property: "og:url", content: "https://docs.wushuo.top"}],
         ["meta", {property: "og:site_name", content: "ANI-RSS"}],
         [
@@ -201,8 +201,8 @@ export default defineConfig({
 
         // Twitter Cards
         ["meta", {name: "twitter:card", content: "summary_large_image"}],
-        ["meta", {name: "twitter:title", content: "ANI-RSS - 自动追番、订阅、下载 蜜柑RSS动漫"}],
-        ["meta", {name: "twitter:description", content: "ANI-RSS 自动追番、订阅、下载 蜜柑RSS动漫"}],
+        ["meta", {name: "twitter:title", content: "ANI-RSS - 基于RSS自动追番、订阅、下载、刮削"}],
+        ["meta", {name: "twitter:description", content: "ANI-RSS 基于RSS自动追番、订阅、下载、刮削"}],
         [
             "meta",
             {
